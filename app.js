@@ -30,7 +30,7 @@ const PROFILE = {
     tagline: "Explore. Analyze. Build. Improve.",
     photo: "0.png",
     github: "https://github.com/khaledazmy54",
-    linkedin: "https://linkedin.com/in/khaled-azmy-838631369",
+    linkedin: "https://www.linkedin.com/in/khaled-azmy-data/",
     email: "khaledazmy54@gmail.com",
     phone: "01097180717",
     location: "Egypt"
@@ -1021,7 +1021,7 @@ function ContactInfo() {
                         <span className="contact-method-value">{PROFILE.email}</span>
                     </div>
                 </a>
-                <a href={`https://${PROFILE.linkedin}`} className="contact-method" target="_blank" rel="noopener noreferrer">
+                <a href={PROFILE.linkedin} className="contact-method" target="_blank" rel="noopener noreferrer">
                     <span className="contact-method-icon"><LucideIcon name="linkedin" size={20} /></span>
                     <div>
                         <span className="contact-method-label">LinkedIn</span>
@@ -1138,7 +1138,7 @@ function Footer() {
                         <a href={PROFILE.github} className="footer-link" target="_blank" rel="noopener noreferrer">
                             <LucideIcon name="github" size={14} /> GitHub
                         </a>
-                        <a href={`https://${PROFILE.linkedin}`} className="footer-link" target="_blank" rel="noopener noreferrer">
+                        <a href={PROFILE.linkedin} className="footer-link" target="_blank" rel="noopener noreferrer">
                             <LucideIcon name="linkedin" size={14} /> LinkedIn
                         </a>
                         <a href={`mailto:${PROFILE.email}`} className="footer-link">
