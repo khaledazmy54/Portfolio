@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <title>Khaled Azmy — Data Science & AI Portfolio</title>
+    <meta name="description" content="Portfolio of Khaled Azmy, a Data Science & AI student building practical projects in machine learning, data analysis, and predictive modeling.">
+    <meta name="author" content="Khaled Azmy">
+    <meta name="keywords" content="Khaled Azmy, Data Science, AI, Machine Learning, Python, Portfolio">
+
+    <!-- Social Sharing / Open Graph -->
+    <meta property="og:title" content="Khaled Azmy — Data Science & AI Portfolio">
+    <meta property="og:description" content="Data Science & AI student passionate about exploring data, building predictive models, and developing practical solutions through code.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://khaledazmy54.github.io">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Khaled Azmy — Data Science & AI Portfolio">
+    <meta name="twitter:description" content="Data Science & AI student passionate about exploring data, building predictive models, and developing practical solutions through code.">
+
+    <!-- Favicon (initials-based) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d1117'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-family='system-ui' font-weight='700' font-size='14' fill='%2300d4aa'%3EKA%3C/text%3E%3C/svg%3E">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- 
+        CDN LOADING ORDER:
+        1. React 18 (UMD build for browser use)
+        2. ReactDOM 18 (UMD build, depends on React)
+        3. Babel Standalone (compiles JSX in the browser)
+        4. Lucide Icons (icon library via unpkg)
+        5. app.js (our React application, type="text/babel" for JSX compilation)
+    -->
+
+    <!-- React 18 -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <!-- Babel Standalone (JSX compiler) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Accessible fallback when JavaScript is unavailable -->
+    <noscript>
+        <div style="background:#0d1117;color:#e6edf3;padding:3rem;text-align:center;font-family:system-ui,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;">
+            <div>
+                <h1 style="font-size:1.5rem;margin-bottom:1rem;">Khaled Azmy — Data Science & AI Portfolio</h1>
+                <p style="color:#8b949e;">This portfolio requires JavaScript to run. Please enable JavaScript in your browser settings.</p>
+                <p style="margin-top:1rem;"><a href="https://github.com/khaledazmy54" style="color:#00d4aa;">Visit my GitHub profile →</a></p>
+            </div>
+        </div>
+    </noscript>
+
+    <!-- React Mount Point -->
+    <div id="root"></div>
+
+    <!-- React Application -->
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
